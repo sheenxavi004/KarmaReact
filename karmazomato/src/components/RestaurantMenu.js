@@ -26,7 +26,7 @@ function RestaurantMenu({restaurants})
 {
     return(
         <ListGroup>
-            <ListGroupItem header>Restaurants in {restaurants[0].restaurant.location.city}</ListGroupItem>
+            <ListGroupItem header style={{fontSize: "18pt", backgroundColor:"#E23744", color:"white" }}>Restaurants in {restaurants[0].restaurant.location.city}</ListGroupItem>
             <RestaurantInfo restaurants={restaurants} />
         </ListGroup>
     )

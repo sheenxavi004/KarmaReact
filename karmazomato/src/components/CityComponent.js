@@ -23,7 +23,7 @@ function City({ selectedCity, change }){
     const toggle = () => setOpen(prevState => !prevState);  
     return(
         <Dropdown isOpen={open} toggle={toggle} >
-            <DropdownToggle caret style={{width: "150px"}}>
+            <DropdownToggle color="danger bg-white text-danger" caret style={{width: "150px"}}>
                 {selectedCity}
             </DropdownToggle>
             <DropdownMenu>
