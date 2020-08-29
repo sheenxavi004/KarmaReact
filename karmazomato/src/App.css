@@ -1,0 +1,35 @@
+.App{
+  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+@font-face {
+  font-family: 'Open Sans';
+  src: url(./shared/OpenSans-Regular.ttf)
+}
+
+@font-face {
+  font-family: 'Open Sans Bold';
+  src: url(./shared/OpenSans-Bold.ttf)
+}
+
+.jumbotron h1{
+  font-family: 'Open Sans Bold', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.jumbotron {
+  background-color: black !important;
+  color: white;
+  width: 100%;
+}
+
+.jumbotron p{
+  padding-left: 18px;
+  font-size: 12pt;
+}
+
+.jumbotron img{
+  padding-left: 10px;
+}
+
+.container{
+  padding: 20px;
+}
