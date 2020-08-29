@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { ListGroup, ListGroupItem} from 'reactstrap';
 import MoreInfo from './MoreInfo'
 import '../App.css'
