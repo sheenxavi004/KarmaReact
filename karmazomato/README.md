@@ -1,5 +1,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Initializing the env
+
+In the project directory create a .env file with contents REACT_APP_API_KEY=Zomato API Token
+
 ## Available Scripts
 
 In the project directory, you can run:
