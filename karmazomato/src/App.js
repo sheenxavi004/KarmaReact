@@ -49,7 +49,7 @@ function App() {
           <City selectedCity={selectedCity} change={changeCity}/>
         </div>
         <div className="col-md-2">
-          <Button className="search" color="danger" onClick={search} >Find Restaurants!</Button>
+          <Button color="danger" onClick={search} >Find Restaurants!</Button>
         </div>
       </div>
       <div className="container">

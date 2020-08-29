@@ -38,12 +38,12 @@ function MoreInfo({restaurant})
 
     return(
         <div>
-            <Button onClick={toggle}>View More Info</Button>
+            <Button color="primary" onClick={toggle}>View More Info</Button>
             <Modal size="lg" isOpen={open} toggle={toggle}>
                 <ModalHeader toggle={toggle} style={{backgroundColor:"#E23744", color:"white"}}>{restaurant.name}</ModalHeader>
                 <ModalBody style={{fontSize:"11pt"}}>
                 <div className="row">
-                    <img className="col-sm-6"src={restaurant.featured_image} alt={restaurant.name} style={{maxWidth:"auto", maxHeight:"max-content"}}/>
+                    <img className="col-sm-6"src={restaurant.featured_image} alt={restaurant.name} style={{objectFit:"cover"}} />
                     <div className= "col-sm-6">
                         <h5 className="row">{restaurant.name}</h5>
                         <p className="row">{restaurant.location.address}</p>
