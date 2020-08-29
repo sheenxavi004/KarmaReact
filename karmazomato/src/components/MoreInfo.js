@@ -38,7 +38,7 @@ function MoreInfo({restaurant})
 
     return(
         <div>
-            <Button color="primary" onClick={toggle}>View More Info</Button>
+            <Button color="danger bg-white text-danger" onClick={toggle}>View More Info</Button>
             <Modal size="lg" isOpen={open} toggle={toggle}>
                 <ModalHeader toggle={toggle} style={{backgroundColor:"#E23744", color:"white"}}>{restaurant.name}</ModalHeader>
                 <ModalBody style={{fontSize:"11pt"}}>
