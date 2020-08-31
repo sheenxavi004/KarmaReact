@@ -4,6 +4,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory create a .env file with contents REACT_APP_API_KEY=Zomato API Token
 
+## `npm i`
+
+Run this command in terminal to install all the required dependencies
+
 ## Available Scripts
 
 In the project directory, you can run:
